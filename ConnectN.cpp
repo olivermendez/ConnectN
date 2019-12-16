@@ -296,8 +296,8 @@ int main(){
 
 		
 			cout<<"Turno del computador "<<endl;
-			//if(chequear_filas(matriz, tamano))break;
-			//if(chequear_columnas(matriz, tamano))break;	
+			if(chequear_filas(matriz, tamano))break;
+			if(chequear_columnas(matriz, tamano))break;	
 			if(chequear_diagonal_derecha(matriz, tamano))break;
 			if(chequear_diagonal_columna(matriz, tamano))break;
 			
@@ -307,8 +307,8 @@ int main(){
 		turno_computador(matriz, tamano);
 		imprimir_matriz(matriz, tamano);
 			cout << "Te toca " <<nombre<< " "<<endl;
-			//if(chequear_filas(matriz, tamano))break;
-			//if(chequear_columnas(matriz, tamano))break;
+			if(chequear_filas(matriz, tamano))break;
+			if(chequear_columnas(matriz, tamano))break;
 			if(chequear_diagonal_derecha(matriz, tamano))break;
 			if(chequear_diagonal_columna(matriz, tamano))break;
 
